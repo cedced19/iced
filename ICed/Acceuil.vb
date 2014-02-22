@@ -23,11 +23,6 @@ Public Class Acceuil
         KillProcess(Endbox.Text)
     End Sub
 
-    Private Sub Time_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Time.Click
-        Timeced.Show()
-        Me.Close()
-    End Sub
-
     Private Sub police_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles police.Click
             Process.Start("time.ttf")
     End Sub
@@ -55,7 +50,7 @@ Public Class Acceuil
     End Sub
 
     Private Sub ItsARevolutionToolStripMenuItem_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles ItsARevolutionToolStripMenuItem.Click
-        Process.Start("http://iced.livehost.fr/")
+        Process.Start("https://cedced19.wordpress.com")
     End Sub
 
     Private Sub QuitterToolStripMenuItem_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles QuitterToolStripMenuItem.Click
@@ -69,21 +64,6 @@ Public Class Acceuil
         If Endbox.Text = "" Then
             ErrorProvider1.SetError(Endbox, "Rien est écrit")
         End If
-    End Sub
-
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Brush.Show()
-        Me.Close()
-    End Sub
-
-    Private Sub Button4_Click1(sender As Object, e As EventArgs) Handles Button4.Click
-        Votes.Show()
-        Me.Close()
-    End Sub
-
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        Player.Show()
-        Me.Close()
     End Sub
 
     Sub AddStartup()
@@ -115,11 +95,6 @@ Public Class Acceuil
         PictureBox1.Show()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        TicTacBoum.Show()
-        Me.Close()
-    End Sub
-
     Sub Mot()
         Randomize()
         Yolo = Int((5 * Rnd()) + 1)
@@ -133,44 +108,63 @@ Public Class Acceuil
 
     End Sub
 
-    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
-        Clic.Show()
-        Me.Close()
-    End Sub
-
 
     Private Sub BulleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BulleToolStripMenuItem.Click
         Bulle.Start()
     End Sub
 
-    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Process.Start("NotePad C.exe")
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        Timeced.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        Brush.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+        Votes.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub PictureBox6_Click(sender As Object, e As EventArgs) Handles PictureBox6.Click
+        Player.Show()
+    End Sub
+
+    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
+        TicTacBoum.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
+        Clic.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PictureBox9.Click
         MCSkin.Show()
         Me.Close()
     End Sub
 
-    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+    Private Sub PictureBox10_Click(sender As Object, e As EventArgs) Handles PictureBox10.Click
         Nopanic.Show()
-        Me.Close()
     End Sub
 
-    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        Process.Start("NotePad C.exe")
-    End Sub
-
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Process.Start("time.ttf")
-    End Sub
-
-    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+    Private Sub PictureBox11_Click(sender As Object, e As EventArgs) Handles PictureBox11.Click
         Calcul.Show()
         Me.Close()
     End Sub
 
-    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+    Private Sub PictureBox12_Click(sender As Object, e As EventArgs) Handles PictureBox12.Click
         Devine.Show()
         Me.Hide()
     End Sub
+
 End Class
 
 

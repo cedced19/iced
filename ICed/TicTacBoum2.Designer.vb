@@ -59,6 +59,7 @@ Partial Class TicTacBoum2
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(583, 329)
         Me.PictureBox1.Name = "PictureBox1"
@@ -73,6 +74,7 @@ Partial Class TicTacBoum2
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Impact", 128.0!)
         Me.Label4.Location = New System.Drawing.Point(11, 261)
         Me.Label4.Name = "Label4"
@@ -83,6 +85,7 @@ Partial Class TicTacBoum2
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(41, 9)
         Me.Label5.Name = "Label5"
@@ -93,6 +96,7 @@ Partial Class TicTacBoum2
         'Label6
         '
         Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.25!)
         Me.Label6.Location = New System.Drawing.Point(43, 44)
         Me.Label6.Name = "Label6"
@@ -103,6 +107,7 @@ Partial Class TicTacBoum2
         'Label7
         '
         Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.25!)
         Me.Label7.Location = New System.Drawing.Point(43, 70)
         Me.Label7.Name = "Label7"
@@ -112,27 +117,30 @@ Partial Class TicTacBoum2
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.Transparent
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
         Me.Button2.Location = New System.Drawing.Point(46, 215)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(173, 40)
         Me.Button2.TabIndex = 10
         Me.Button2.Text = "Relancer"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
         Me.Button3.Location = New System.Drawing.Point(225, 215)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(173, 40)
         Me.Button3.TabIndex = 11
         Me.Button3.Text = "Conteur de point"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Label8
         '
         Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.25!)
         Me.Label8.Location = New System.Drawing.Point(43, 96)
         Me.Label8.Name = "Label8"
@@ -143,6 +151,7 @@ Partial Class TicTacBoum2
         'LabelMot
         '
         Me.LabelMot.AutoSize = True
+        Me.LabelMot.BackColor = System.Drawing.Color.Transparent
         Me.LabelMot.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelMot.Location = New System.Drawing.Point(41, 134)
         Me.LabelMot.Name = "LabelMot"
@@ -153,6 +162,7 @@ Partial Class TicTacBoum2
         'LabelMode
         '
         Me.LabelMode.AutoSize = True
+        Me.LabelMode.BackColor = System.Drawing.Color.Transparent
         Me.LabelMode.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelMode.Location = New System.Drawing.Point(42, 167)
         Me.LabelMode.Name = "LabelMode"
@@ -164,6 +174,7 @@ Partial Class TicTacBoum2
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.SystemColors.Control
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(899, 551)
         Me.Controls.Add(Me.LabelMode)

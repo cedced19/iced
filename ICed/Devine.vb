@@ -47,6 +47,7 @@
         Yolo = Int((100 * Rnd()) + 1)
         Label3.Text = "Nombre mystère"
         Label4.Text = ""
+        Button2.Hide()
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click

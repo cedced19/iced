@@ -37,6 +37,7 @@ Partial Class Nopanic
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.25!)
         Me.Label1.Location = New System.Drawing.Point(37, 29)
         Me.Label1.Name = "Label1"
@@ -97,6 +98,7 @@ Partial Class Nopanic
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!)
         Me.Label3.Location = New System.Drawing.Point(12, 361)
         Me.Label3.Name = "Label3"
@@ -108,6 +110,7 @@ Partial Class Nopanic
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(702, 467)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button3)

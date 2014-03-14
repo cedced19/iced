@@ -18,10 +18,8 @@
         ProgressBar2.Maximum = Vote
     End Sub
 
-
-
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Acceuil.Show()
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Aether.Show()
         Me.Close()
     End Sub
 End Class

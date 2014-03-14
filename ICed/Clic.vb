@@ -32,10 +32,6 @@
         Button2.Hide()
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        Acceuil.Show()
-        Me.Close()
-    End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         If CheckBox1.Checked = True Then
@@ -43,5 +39,10 @@
         Else
             Me.TopMost = False
         End If
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Aether.Show()
+        Me.Close()
     End Sub
 End Class

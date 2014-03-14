@@ -33,7 +33,7 @@
     <SuiteName>ICed</SuiteName>
     <AutorunEnabled>true</AutorunEnabled>
     <ApplicationRevision>3</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>1.7.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -118,11 +118,10 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Acceuil.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Aether.designer.vb">
+      <DependentUpon>Aether.vb</DependentUpon>
     </Compile>
-    <Compile Include="Acceuil.Designer.vb">
-      <DependentUpon>Acceuil.vb</DependentUpon>
+    <Compile Include="Aether.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
@@ -136,6 +135,12 @@
       <DependentUpon>Calcul.vb</DependentUpon>
     </Compile>
     <Compile Include="Calcul.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChronoC.designer.vb">
+      <DependentUpon>ChronoC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChronoC.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Clic.Designer.vb">
@@ -185,6 +190,12 @@
     <Compile Include="Player.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Shutdown.Designer.vb">
+      <DependentUpon>Shutdown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shutdown.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Splashscreen.Designer.vb">
       <DependentUpon>Splashscreen.vb</DependentUpon>
     </Compile>
@@ -227,14 +238,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Acceuil.resx">
-      <DependentUpon>Acceuil.vb</DependentUpon>
+    <EmbeddedResource Include="Aether.resx">
+      <DependentUpon>Aether.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Brush.resx">
       <DependentUpon>Brush.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Calcul.resx">
       <DependentUpon>Calcul.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChronoC.resx">
+      <DependentUpon>ChronoC.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clic.resx">
       <DependentUpon>Clic.vb</DependentUpon>
@@ -256,6 +270,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Player.resx">
       <DependentUpon>Player.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shutdown.resx">
+      <DependentUpon>Shutdown.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splashscreen.resx">
       <DependentUpon>Splashscreen.vb</DependentUpon>

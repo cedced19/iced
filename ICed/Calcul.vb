@@ -48,8 +48,13 @@
         LBL_ERR.Hide()
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Acceuil.Show()
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
+        Aether.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Aether.Show()
         Me.Close()
     End Sub
 End Class

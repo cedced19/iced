@@ -7,7 +7,7 @@
     Dim Yolo3
     Dim Timing
 
-    Sub Time()
+    Sub Launch()
         PictureBox1.Show()
         Timer1.Start()
     End Sub
@@ -24,6 +24,7 @@
             PictureBox1.Hide()
             Label4.Show()
             Timer1.Stop()
+            Button1.Hide()
         End If
     End Sub
 
@@ -162,7 +163,7 @@
         TicouTac()
         Mots()
         Timer()
-        Time()
+        Launch()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -172,5 +173,10 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Conteur.Show()
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Aether.Show()
+        Me.Close()
     End Sub
 End Class

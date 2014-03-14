@@ -32,26 +32,27 @@ Partial Class Calcul
         Me.BT_CALCUL = New System.Windows.Forms.Button()
         Me.LBL_ERR = New System.Windows.Forms.Label()
         Me.LBL_COUT = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TXT_CONSOMMATION
         '
-        Me.TXT_CONSOMMATION.Location = New System.Drawing.Point(323, 32)
+        Me.TXT_CONSOMMATION.Location = New System.Drawing.Point(323, 71)
         Me.TXT_CONSOMMATION.Name = "TXT_CONSOMMATION"
         Me.TXT_CONSOMMATION.Size = New System.Drawing.Size(227, 20)
         Me.TXT_CONSOMMATION.TabIndex = 0
         '
         'TXT_NBKM
         '
-        Me.TXT_NBKM.Location = New System.Drawing.Point(323, 58)
+        Me.TXT_NBKM.Location = New System.Drawing.Point(323, 97)
         Me.TXT_NBKM.Name = "TXT_NBKM"
         Me.TXT_NBKM.Size = New System.Drawing.Size(227, 20)
         Me.TXT_NBKM.TabIndex = 1
         '
         'TXT_PRIXESS
         '
-        Me.TXT_PRIXESS.Location = New System.Drawing.Point(323, 84)
+        Me.TXT_PRIXESS.Location = New System.Drawing.Point(323, 123)
         Me.TXT_PRIXESS.Name = "TXT_PRIXESS"
         Me.TXT_PRIXESS.Size = New System.Drawing.Size(227, 20)
         Me.TXT_PRIXESS.TabIndex = 2
@@ -61,7 +62,7 @@ Partial Class Calcul
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label1.Location = New System.Drawing.Point(12, 35)
+        Me.Label1.Location = New System.Drawing.Point(12, 74)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(251, 17)
         Me.Label1.TabIndex = 3
@@ -72,7 +73,7 @@ Partial Class Calcul
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label2.Location = New System.Drawing.Point(12, 58)
+        Me.Label2.Location = New System.Drawing.Point(12, 97)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(178, 17)
         Me.Label2.TabIndex = 4
@@ -83,7 +84,7 @@ Partial Class Calcul
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.Label3.Location = New System.Drawing.Point(12, 84)
+        Me.Label3.Location = New System.Drawing.Point(12, 123)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(175, 17)
         Me.Label3.TabIndex = 5
@@ -92,7 +93,7 @@ Partial Class Calcul
         'BT_CALCUL
         '
         Me.BT_CALCUL.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.25!)
-        Me.BT_CALCUL.Location = New System.Drawing.Point(210, 186)
+        Me.BT_CALCUL.Location = New System.Drawing.Point(210, 225)
         Me.BT_CALCUL.Name = "BT_CALCUL"
         Me.BT_CALCUL.Size = New System.Drawing.Size(107, 37)
         Me.BT_CALCUL.TabIndex = 6
@@ -104,7 +105,7 @@ Partial Class Calcul
         Me.LBL_ERR.AutoSize = True
         Me.LBL_ERR.BackColor = System.Drawing.Color.Transparent
         Me.LBL_ERR.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.LBL_ERR.Location = New System.Drawing.Point(143, 146)
+        Me.LBL_ERR.Location = New System.Drawing.Point(143, 185)
         Me.LBL_ERR.Name = "LBL_ERR"
         Me.LBL_ERR.Size = New System.Drawing.Size(287, 25)
         Me.LBL_ERR.TabIndex = 7
@@ -115,20 +116,22 @@ Partial Class Calcul
         Me.LBL_COUT.AutoSize = True
         Me.LBL_COUT.BackColor = System.Drawing.Color.Transparent
         Me.LBL_COUT.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.25!)
-        Me.LBL_COUT.Location = New System.Drawing.Point(38, 247)
+        Me.LBL_COUT.Location = New System.Drawing.Point(38, 286)
         Me.LBL_COUT.Name = "LBL_COUT"
         Me.LBL_COUT.Size = New System.Drawing.Size(279, 25)
         Me.LBL_COUT.TabIndex = 8
         Me.LBL_COUT.Text = "Le cout du voyage sera de :"
         '
-        'Button1
+        'PictureBox1
         '
-        Me.Button1.Location = New System.Drawing.Point(83, 187)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(107, 36)
-        Me.Button1.TabIndex = 9
-        Me.Button1.Text = "Menu principal "
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(495, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(55, 51)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 10
+        Me.PictureBox1.TabStop = False
         '
         'Calcul
         '
@@ -136,7 +139,7 @@ Partial Class Calcul
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(562, 350)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.LBL_COUT)
         Me.Controls.Add(Me.LBL_ERR)
         Me.Controls.Add(Me.BT_CALCUL)
@@ -150,6 +153,7 @@ Partial Class Calcul
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Calcul"
         Me.Text = "Calcules ton voyage"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -163,6 +167,6 @@ Partial Class Calcul
     Friend WithEvents BT_CALCUL As System.Windows.Forms.Button
     Friend WithEvents LBL_ERR As System.Windows.Forms.Label
     Friend WithEvents LBL_COUT As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 
 End Class

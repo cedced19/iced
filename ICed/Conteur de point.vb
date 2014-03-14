@@ -25,4 +25,5 @@
         player4 = player4 + 1
         Label4.Text = "Joueur 4 : " & player4
     End Sub
+
 End Class

@@ -32,10 +32,6 @@
         Label5.Text = "Jour de l'annee : " & Date.Now.DayOfYear
     End Sub
 
-    Private Sub Label2_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Label2.Click
-        Process.Start("timedate.cpl")
-    End Sub
-
     Private Sub Timeced_Click(sender As Object, e As EventArgs) Handles Me.Click
         MonthCalendar1.Hide()
         Label7.Show()
@@ -48,7 +44,7 @@
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
-        Acceuil.Show()
+        Aether.Show()
         Me.Close()
     End Sub
 

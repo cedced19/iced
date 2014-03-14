@@ -37,7 +37,9 @@ Partial Class TicTacBoum
         Me.Label8 = New System.Windows.Forms.Label()
         Me.LabelMot = New System.Windows.Forms.Label()
         Me.LabelMode = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ProgressBar1
@@ -170,6 +172,17 @@ Partial Class TicTacBoum
         Me.LabelMode.TabIndex = 14
         Me.LabelMode.Text = "Mode :"
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(832, 9)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(55, 51)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 15
+        Me.PictureBox2.TabStop = False
+        '
         'TicTacBoum
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
@@ -177,6 +190,7 @@ Partial Class TicTacBoum
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(899, 551)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.LabelMode)
         Me.Controls.Add(Me.LabelMot)
         Me.Controls.Add(Me.Label8)
@@ -195,6 +209,7 @@ Partial Class TicTacBoum
         Me.Name = "TicTacBoum"
         Me.Text = "Tic Tac Boum !!!!"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -212,5 +227,6 @@ Partial Class TicTacBoum
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents LabelMot As System.Windows.Forms.Label
     Friend WithEvents LabelMode As System.Windows.Forms.Label
+    Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
 
 End Class

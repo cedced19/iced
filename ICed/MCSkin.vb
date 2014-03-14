@@ -19,8 +19,8 @@
         PictureBox1.Image.Save(SaveFileDialog1.FileName)
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Acceuil.Show()
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Aether.Show()
         Me.Close()
     End Sub
 End Class

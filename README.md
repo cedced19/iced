@@ -1,6 +1,8 @@
-http://cedced19.wordpress.com
+ICed
+====
+[Site](http://cedced19.wordpress.com)
 
-ICed est un logiciel crée par cedced19 qui permet tous et rien !
+ICed est un logiciel crï¿½e par cedced19 qui permet tous et rien !
 
 Il est avant tout GRATUIT
 
@@ -12,34 +14,37 @@ Notepad C :
 C'est un bloc-note.
 
 Player :
-Un player de vidéos/musiques.
+Un player de vidï¿½os/musiques.
 
 Chrono C :
-C’est un chronomètre car il y en a pas par default dans Windows !
+Cï¿½est un chronomï¿½tre car il y en a pas par default dans Windows !
 
 Calcules ton voyage :
-Calculer votre voyage en fonction de la consommation de votre voiture et du prix de l’essence.
+Calculer votre voyage en fonction de la consommation de votre voiture et du prix de lï¿½essence.
 
 Time C :
-Affiche l’heure.
+Affiche lï¿½heure.
 
 Brush your Teeth :
-Tous est dans le nom.Il offre un conte à rebours de trois minutes pour se brosser les dents. 
+Tous est dans le nom.Il offre un conte ï¿½ rebours de trois minutes pour se brosser les dents. 
 
 Shutdown It :
-Vous pouvez éteindre votre pc quand le téléchargement est fini !
+Vous pouvez ï¿½teindre votre pc quand le tï¿½lï¿½chargement est fini !
 
 Cliqueur :
-Permet de cliquer beaucoup de fois à la seconde.
+Permet de cliquer beaucoup de fois ï¿½ la seconde.
 
 Tic Tac Boum :
-Inspire du jeu de société Tic Tac Boum, trouve des mot avant l’explosion ,ce joue jusqu’à 4 joueurs
+Inspire du jeu de sociï¿½tï¿½ Tic Tac Boum, trouve des mot avant lï¿½explosion ,ce joue jusquï¿½ï¿½ 4 joueurs
 
  
 No panic :
-Inspire du jeu de société No panic, trouve des mots selon un thème ,ce joue jusqu’à 4 joueurs.
+Inspire du jeu de sociï¿½tï¿½ No panic, trouve des mots selon un thï¿½me ,ce joue jusquï¿½ï¿½ 4 joueurs.
 
 MC Get Skin :
-Permet d’obtenir des skins minecraft à l’aide d’un pseudo.
+Permet dï¿½obtenir des skins minecraft ï¿½ lï¿½aide dï¿½un pseudo.
 
-Et bien d’autres…
+Et bien dï¿½autresï¿½
+
+
+[Download](https://raw.githubusercontent.com/cedced19/iced/master/setup/iced-setup.exe)

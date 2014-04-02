@@ -10,41 +10,41 @@ ICed est un hub avec tous mes logiciels (sauf Chat C)
 Il contient :
 
 
-Notepad C :
+**Notepad C :**
 C'est un bloc-note.
 
-Player :
+**Player :**
 Un player de vidéos/musiques.
 
-Chrono C :
+**Chrono C :**
 C'est un chronomètre car il y en a pas par default dans Windows !
 
 Calcules ton voyage :
-Calculer votre voyage en fonction de la consommation de votre voiture et du prix de l�essence.
+Calculer votre voyage en fonction de la consommation de votre voiture et du prix de l'essence.
 
-Time C :
+**Time C :**
 Affiche l'heure.
 
-Brush your Teeth :
+**Brush your Teeth :**
 Tous est dans le nom.Il offre un conte à rebours de trois minutes pour se brosser les dents. 
 
-Shutdown It :
-Vous pouvez �teindre votre pc quand le téléchargement est fini !
+**Shutdown It :**
+Vous pouvez éteindre votre pc quand le téléchargement est fini !
 
-Cliqueur :
-Permet de cliquer beaucoup de fois � la seconde.
+**Cliqueur :**
+Permet de cliquer beaucoup de fois à la seconde.
 
-Tic Tac Boum :
-Inspire du jeu de soci�t� Tic Tac Boum, trouve des mot avant l�explosion ,ce joue jusqu�� 4 joueurs
+**Tic Tac Boum :**
+Inspire du jeu de société Tic Tac Boum, trouve des mot avant l'explosion ,ce joue jusqu'à 4 joueurs
 
  
-No panic :
-Inspire du jeu de soci�t� No panic, trouve des mots selon un th�me ,ce joue jusqu�� 4 joueurs.
+**No panic :**
+Inspire du jeu de société No panic, trouve des mots selon un thème ,ce joue jusqu'à 4 joueurs.
 
-MC Get Skin :
-Permet d�obtenir des skins minecraft � l�aide d�un pseudo.
+**MC Get Skin :**
+Permet d'obtenir des skins minecraft à l'aide d'un pseudo.
 
-Et bien d�autres�
+Et bien d'autres!
 
 
 [Download](https://raw.githubusercontent.com/cedced19/iced/master/setup/iced-setup.exe)

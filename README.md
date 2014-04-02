@@ -8,9 +8,9 @@ ICed est un logiciel crée par cedced19 qui permet tous et rien !
 
 Il est avant tout GRATUIT
 
-ICed est un hub avec tous mes logiciels (sauf Chat C)
-Il contient :
 
+====
+Il contient :
 
 **Notepad C :**
 
@@ -69,5 +69,6 @@ Permet d'obtenir des skins minecraft à l'aide d'un pseudo.
 
 Et bien d'autres!
 
+====
 
 [Download](https://raw.githubusercontent.com/cedced19/iced/master/setup/iced-setup.exe)

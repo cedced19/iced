@@ -2,7 +2,7 @@ ICed
 ====
 [Site](http://cedced19.wordpress.com)
 
-ICed est un logiciel cr�e par cedced19 qui permet tous et rien !
+ICed est un logiciel crée par cedced19 qui permet tous et rien !
 
 Il est avant tout GRATUIT
 
@@ -14,22 +14,22 @@ Notepad C :
 C'est un bloc-note.
 
 Player :
-Un player de vid�os/musiques.
+Un player de vidéos/musiques.
 
 Chrono C :
-C�est un chronom�tre car il y en a pas par default dans Windows !
+C'est un chronomètre car il y en a pas par default dans Windows !
 
 Calcules ton voyage :
 Calculer votre voyage en fonction de la consommation de votre voiture et du prix de l�essence.
 
 Time C :
-Affiche l�heure.
+Affiche l'heure.
 
 Brush your Teeth :
-Tous est dans le nom.Il offre un conte � rebours de trois minutes pour se brosser les dents. 
+Tous est dans le nom.Il offre un conte à rebours de trois minutes pour se brosser les dents. 
 
 Shutdown It :
-Vous pouvez �teindre votre pc quand le t�l�chargement est fini !
+Vous pouvez �teindre votre pc quand le téléchargement est fini !
 
 Cliqueur :
 Permet de cliquer beaucoup de fois � la seconde.

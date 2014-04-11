@@ -31,9 +31,6 @@ Partial Class Aether
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.BulleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AProposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.UpdateToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ItsARevolutionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.QuitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
@@ -126,48 +123,31 @@ Partial Class Aether
         '
         'ContextMenuStrip1
         '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BulleToolStripMenuItem, Me.AProposToolStripMenuItem, Me.UpdateToolStripMenuItem, Me.ToolStripSeparator2, Me.ItsARevolutionToolStripMenuItem, Me.ToolStripSeparator1, Me.QuitterToolStripMenuItem})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BulleToolStripMenuItem, Me.AProposToolStripMenuItem, Me.ToolStripSeparator1, Me.QuitterToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(121, 126)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(112, 76)
         '
         'BulleToolStripMenuItem
         '
         Me.BulleToolStripMenuItem.Name = "BulleToolStripMenuItem"
-        Me.BulleToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.BulleToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.BulleToolStripMenuItem.Text = "Bulle"
         '
         'AProposToolStripMenuItem
         '
         Me.AProposToolStripMenuItem.Name = "AProposToolStripMenuItem"
-        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.AProposToolStripMenuItem.Text = "Troll"
-        '
-        'UpdateToolStripMenuItem
-        '
-        Me.UpdateToolStripMenuItem.Name = "UpdateToolStripMenuItem"
-        Me.UpdateToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
-        Me.UpdateToolStripMenuItem.Text = "Update"
-        '
-        'ToolStripSeparator2
-        '
-        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(117, 6)
-        '
-        'ItsARevolutionToolStripMenuItem
-        '
-        Me.ItsARevolutionToolStripMenuItem.Name = "ItsARevolutionToolStripMenuItem"
-        Me.ItsARevolutionToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
-        Me.ItsARevolutionToolStripMenuItem.Text = "Site Web"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(117, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(108, 6)
         '
         'QuitterToolStripMenuItem
         '
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
-        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(120, 22)
+        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.QuitterToolStripMenuItem.Text = "Quitter"
         '
         'ErrorProvider1
@@ -600,16 +580,13 @@ Partial Class Aether
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
     Friend WithEvents QuitterToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ItsARevolutionToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripSeparator1 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents ErrorProvider1 As System.Windows.Forms.ErrorProvider
     Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents DirectorySearcher1 As System.DirectoryServices.DirectorySearcher
-    Friend WithEvents UpdateToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AProposToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents ToolStripSeparator2 As System.Windows.Forms.ToolStripSeparator
     Friend WithEvents Bulle As System.Diagnostics.Process
     Friend WithEvents BulleToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label1 As System.Windows.Forms.Label

@@ -27,6 +27,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Timer1.Start()
+        Timer3.Start()
         Button1.Hide()
         PictureBox1.Hide()
     End Sub
@@ -47,6 +48,7 @@
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
         Closeit = Closeit + 1
+        Timer3.Stop()
         If Closeit = 30 Then
             Aether.Show()
             Me.Close()
@@ -56,5 +58,12 @@
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Aether.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Timer3_Tick(sender As Object, e As EventArgs) Handles Timer3.Tick
+        If Minutes = "0" Then
+            Dim ep = CreateObject("sapi.spvoice")
+            ep.speak("Fini")
+        End If
     End Sub
 End Class

@@ -31,6 +31,7 @@ Partial Class Brush
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Timer3 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -92,6 +93,9 @@ Partial Class Brush
         Me.Panel1.Size = New System.Drawing.Size(1024, 447)
         Me.Panel1.TabIndex = 8
         '
+        'Timer3
+        '
+        '
         'Brush
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -120,5 +124,6 @@ Partial Class Brush
     Friend WithEvents Timer2 As System.Windows.Forms.Timer
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Timer3 As System.Windows.Forms.Timer
 
 End Class

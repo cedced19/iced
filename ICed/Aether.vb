@@ -1,8 +1,6 @@
 ﻿Imports System.Net
 
 Public Class Aether 'Est la classe principale.
-
-    Dim Yolo
     Dim Hello
 
 
@@ -37,13 +35,9 @@ Public Class Aether 'Est la classe principale.
 
     Private Sub Button7_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button7.Click
         Errorbox1()
-        If System.IO.File.Exists(Endbox.Text) = True Then
+        If System.IO.File.Exists(Endbox.Text) Then
             Process.Start(Endbox.Text)
         End If
-    End Sub
-
-    Private Sub ItsARevolutionToolStripMenuItem_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles ItsARevolutionToolStripMenuItem.Click
-        Process.Start("https://cedced19.wordpress.com")
     End Sub
 
     Private Sub QuitterToolStripMenuItem_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles QuitterToolStripMenuItem.Click
@@ -80,25 +74,32 @@ Public Class Aether 'Est la classe principale.
         Mot()
     End Sub
 
-    Private Sub UpdateToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles UpdateToolStripMenuItem.Click
-        Process.Start("https://www.dropbox.com/s/tx9dqck6k4iqxau/ICed.exe")
-    End Sub
-
     Private Sub AProposToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AProposToolStripMenuItem.Click
         PictureBox1.Show()
     End Sub
 
     Sub Mot()
-        Randomize()
-        Yolo = Int((5 * Rnd()) + 1)
-
-        If Yolo = "1" Then Hello = "Bonjour " & Environment.UserName & ", jouer à tic tac boum tu dois, jeune padawan"
-        If Yolo = "2" Then Hello = "Bonjour " & Environment.UserName & ", it's a revolution"
-        If Yolo = "3" Then Hello = "Bonjour " & Environment.UserName & ", temps tu as maintenant grâce à ICed"
-        If Yolo = "4" Then Hello = "Bonjour " & Environment.UserName & ", time you have now because... ICed !"
-        If Yolo = "5" Then Hello = "Bonjour " & Environment.UserName & ", que la force soit avec toi !"
+        ' Si c'est midi...
+        If (Date.Now.Hour = "12") Then
+            Hello = "Bonne appétit " & Environment.UserName & " !"
+        End If
+        ' Si c'est le matin...
+        If (Date.Now.Hour < "12") Then
+            Hello = "Bonne matiné " & Environment.UserName & ", tu as pris ton petit dejeuner ?"
+        End If
+        'Si c'est l'aprem...
+        If (Date.Now.Hour > "12") Then
+            Hello = "Bonne après-midi " & Environment.UserName & " !"
+        End If
+        'Si c'est le soire...
+        If (Date.Now.Hour > "18") Then
+            Hello = "Bonne soirée " & Environment.UserName & " !"
+        End If
+        'Si c'est la nuit...
+        If (Date.Now.Hour > "22") Then
+            Hello = "Bonne nuit " & Environment.UserName & " !"
+        End If
         Label1.Text = Hello
-
     End Sub
 
 

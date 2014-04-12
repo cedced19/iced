@@ -71,7 +71,6 @@ Public Class Aether 'Est la classe principale.
 
     Private Sub Acceuil_Load(sender As Object, e As EventArgs) Handles Me.Load
         Mot()
-        CheckUpdate()
     End Sub
 
     Sub Mot()
@@ -168,15 +167,17 @@ Public Class Aether 'Est la classe principale.
 
     Sub CheckUpdate()
         Dim MAJ As New WebClient
-        Dim Last = MAJ.DownloadString("http://cedced19.github.io/iced/version.txt")
+        Dim Last = MAJ.DownloadString("http://cedced19.github.io/notepad/version.txt")
         If Last = Now Then
+            Label15.Text = "C'est à jour."
         Else
             Label15.Text = "Il y a une nouvelle version diponible."
+            Process.Start("http://cedced19.github.io/notepad/")
         End If
     End Sub
 
     Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Label15.Click
-        Process.Start("http://cedced19.github.io/iced/")
+        CheckUpdate()
     End Sub
 End Class
 

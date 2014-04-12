@@ -123,23 +123,23 @@ Partial Class Aether
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BulleToolStripMenuItem, Me.ToolStripSeparator1, Me.QuitterToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(153, 76)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(112, 54)
         '
         'BulleToolStripMenuItem
         '
         Me.BulleToolStripMenuItem.Name = "BulleToolStripMenuItem"
-        Me.BulleToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.BulleToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.BulleToolStripMenuItem.Text = "Bulle"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(108, 6)
         '
         'QuitterToolStripMenuItem
         '
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
-        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.QuitterToolStripMenuItem.Text = "Quitter"
         '
         'ErrorProvider1
@@ -485,9 +485,9 @@ Partial Class Aether
         Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Location = New System.Drawing.Point(9, 613)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(78, 13)
+        Me.Label15.Size = New System.Drawing.Size(43, 13)
         Me.Label15.TabIndex = 53
-        Me.Label15.Text = "ICed est à jour."
+        Me.Label15.Text = "A jour ?"
         '
         'Aether
         '

@@ -2,7 +2,7 @@
 
 Public Class Aether 'Est la classe principale.
     Dim Hello
-
+    Dim Now = "2.0"
 
     Sub KillProcess(ByVal ProcessName As String)
         Dim svc As Object
@@ -70,12 +70,8 @@ Public Class Aether 'Est la classe principale.
     End Sub
 
     Private Sub Acceuil_Load(sender As Object, e As EventArgs) Handles Me.Load
-        PictureBox1.Hide()
         Mot()
-    End Sub
-
-    Private Sub AProposToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AProposToolStripMenuItem.Click
-        PictureBox1.Show()
+        CheckUpdate()
     End Sub
 
     Sub Mot()
@@ -168,6 +164,19 @@ Public Class Aether 'Est la classe principale.
     Private Sub PictureBox14_Click(sender As Object, e As EventArgs) Handles PictureBox14.Click
         Shutdown.Show()
         Me.Close()
+    End Sub
+
+    Sub CheckUpdate()
+        Dim MAJ As New WebClient
+        Dim Last = MAJ.DownloadString("http://cedced19.github.io/iced/version.txt")
+        If Last = Now Then
+        Else
+            Label15.Text = "Il y a une nouvelle version diponible."
+        End If
+    End Sub
+
+    Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Label15.Click
+        Process.Start("http://cedced19.github.io/iced/")
     End Sub
 End Class
 

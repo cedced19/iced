@@ -30,7 +30,6 @@ Partial Class Aether
         Me.Button7 = New System.Windows.Forms.Button()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.BulleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AProposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.QuitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
@@ -38,7 +37,6 @@ Partial Class Aether
         Me.DirectorySearcher1 = New System.DirectoryServices.DirectorySearcher()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Endbox = New System.Windows.Forms.TextBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Bulle = New System.Diagnostics.Process()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -67,9 +65,9 @@ Partial Class Aether
         Me.Label13 = New System.Windows.Forms.Label()
         Me.PictureBox14 = New System.Windows.Forms.PictureBox()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.ContextMenuStrip1.SuspendLayout()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -123,31 +121,25 @@ Partial Class Aether
         '
         'ContextMenuStrip1
         '
-        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BulleToolStripMenuItem, Me.AProposToolStripMenuItem, Me.ToolStripSeparator1, Me.QuitterToolStripMenuItem})
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BulleToolStripMenuItem, Me.ToolStripSeparator1, Me.QuitterToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(112, 76)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(153, 76)
         '
         'BulleToolStripMenuItem
         '
         Me.BulleToolStripMenuItem.Name = "BulleToolStripMenuItem"
-        Me.BulleToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.BulleToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.BulleToolStripMenuItem.Text = "Bulle"
-        '
-        'AProposToolStripMenuItem
-        '
-        Me.AProposToolStripMenuItem.Name = "AProposToolStripMenuItem"
-        Me.AProposToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
-        Me.AProposToolStripMenuItem.Text = "Troll"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(108, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
         '
         'QuitterToolStripMenuItem
         '
         Me.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem"
-        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.QuitterToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.QuitterToolStripMenuItem.Text = "Quitter"
         '
         'ErrorProvider1
@@ -190,18 +182,6 @@ Partial Class Aether
         Me.Endbox.Size = New System.Drawing.Size(282, 42)
         Me.Endbox.TabIndex = 5
         Me.Endbox.Text = Global.ICed.My.MySettings.Default.EndBox
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(874, 334)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(213, 169)
-        Me.PictureBox1.TabIndex = 17
-        Me.PictureBox1.TabStop = False
         '
         'Bulle
         '
@@ -499,6 +479,16 @@ Partial Class Aether
         Me.Label14.TabIndex = 52
         Me.Label14.Text = "Shutdown It"
         '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.Color.Transparent
+        Me.Label15.Location = New System.Drawing.Point(9, 613)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(78, 13)
+        Me.Label15.TabIndex = 53
+        Me.Label15.Text = "ICed est à jour."
+        '
         'Aether
         '
         Me.AllowDrop = True
@@ -511,6 +501,7 @@ Partial Class Aether
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1211, 635)
         Me.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.PictureBox14)
         Me.Controls.Add(Me.Label13)
@@ -538,7 +529,6 @@ Partial Class Aether
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button5)
@@ -555,7 +545,6 @@ Partial Class Aether
         Me.Text = "ICed"
         Me.ContextMenuStrip1.ResumeLayout(False)
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -585,8 +574,6 @@ Partial Class Aether
     Friend WithEvents NotifyIcon1 As System.Windows.Forms.NotifyIcon
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents DirectorySearcher1 As System.DirectoryServices.DirectorySearcher
-    Friend WithEvents AProposToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Bulle As System.Diagnostics.Process
     Friend WithEvents BulleToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label1 As System.Windows.Forms.Label
@@ -616,5 +603,6 @@ Partial Class Aether
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents PictureBox14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label15 As System.Windows.Forms.Label
 
 End Class

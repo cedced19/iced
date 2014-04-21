@@ -2,7 +2,6 @@
 
 Public Class Aether 'Est la classe principale.
     Dim Hello
-    Dim Now = "2.0"
 
     Sub KillProcess(ByVal ProcessName As String)
         Dim svc As Object
@@ -163,21 +162,6 @@ Public Class Aether 'Est la classe principale.
     Private Sub PictureBox14_Click(sender As Object, e As EventArgs) Handles PictureBox14.Click
         Shutdown.Show()
         Me.Close()
-    End Sub
-
-    Sub CheckUpdate()
-        Dim MAJ As New WebClient
-        Dim Last = MAJ.DownloadString("http://cedced19.github.io/notepad/version.txt")
-        If Last = Now Then
-            Label15.Text = "C'est à jour."
-        Else
-            Label15.Text = "Il y a une nouvelle version diponible."
-            Process.Start("http://cedced19.github.io/notepad/")
-        End If
-    End Sub
-
-    Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Label15.Click
-        CheckUpdate()
     End Sub
 End Class
 

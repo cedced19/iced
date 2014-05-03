@@ -184,6 +184,12 @@
     <Compile Include="No Panic2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Pair.Designer.vb">
+      <DependentUpon>Pair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pair.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Player.Designer.vb">
       <DependentUpon>Player.vb</DependentUpon>
     </Compile>
@@ -267,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="No Panic2.resx">
       <DependentUpon>No Panic2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pair.resx">
+      <DependentUpon>Pair.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Player.resx">
       <DependentUpon>Player.vb</DependentUpon>

@@ -65,6 +65,8 @@ Partial Class Aether
         Me.Label13 = New System.Windows.Forms.Label()
         Me.PictureBox14 = New System.Windows.Forms.PictureBox()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ContextMenuStrip1.SuspendLayout()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -80,6 +82,7 @@ Partial Class Aether
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Endprocess
@@ -478,6 +481,27 @@ Partial Class Aether
         Me.Label14.TabIndex = 52
         Me.Label14.Text = "Shutdown It"
         '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.Color.Transparent
+        Me.Label15.Location = New System.Drawing.Point(389, 359)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(34, 13)
+        Me.Label15.TabIndex = 54
+        Me.Label15.Text = "Pair It"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(392, 375)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(69, 66)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 53
+        Me.PictureBox1.TabStop = False
+        '
         'Aether
         '
         Me.AllowDrop = True
@@ -490,6 +514,8 @@ Partial Class Aether
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1211, 635)
         Me.ContextMenuStrip = Me.ContextMenuStrip1
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.PictureBox14)
         Me.Controls.Add(Me.Label13)
@@ -546,6 +572,7 @@ Partial Class Aether
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -591,5 +618,7 @@ Partial Class Aether
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents PictureBox14 As System.Windows.Forms.PictureBox
+    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 
 End Class

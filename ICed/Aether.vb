@@ -163,6 +163,11 @@ Public Class Aether 'Est la classe principale.
         Shutdown.Show()
         Me.Close()
     End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Pair.Show()
+        Me.Close()
+    End Sub
 End Class
 
 

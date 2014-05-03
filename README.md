@@ -67,9 +67,9 @@ Inspire du jeu de société No panic, trouve des mots selon un thème ,ce joue j
 Permet d'obtenir des skins minecraft à l'aide d'un pseudo.
 ![](demo/MC Get Skin.PNG)
 
-**Pair  :**
+**Pair  :**  
 
-Assenbler des couleurs.
+Assenbler des couleurs.  
 ![](demo/Pairit.png)
 
 Et bien d'autres!

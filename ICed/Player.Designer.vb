@@ -75,7 +75,7 @@ Partial Class Player
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(192, 23)
         Me.Button4.TabIndex = 5
-        Me.Button4.Text = "NRJ"
+        Me.Button4.Text = "Top Music"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5

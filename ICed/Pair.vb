@@ -215,4 +215,9 @@
         time = time + 1
         Label2.Text = "Temps : " & time & "s"
     End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
+        Aether.Show()
+        Me.Close()
+    End Sub
 End Class

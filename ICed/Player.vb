@@ -1,5 +1,4 @@
 ﻿Public Class Player
-
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If OpenFileDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
             AxWindowsMediaPlayer1.URL = OpenFileDialog1.FileName
@@ -15,7 +14,7 @@
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        AxWindowsMediaPlayer1.URL = "http://95.81.147.3/nrj/all/nrj_113225.mp3"
+        AxWindowsMediaPlayer1.URL = "http://players.creacast.com/creacast/topmusic/playlist.m3u"
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click

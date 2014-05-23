@@ -1,6 +1,6 @@
 ICed
 ====
-[Site](http://cedced19.github.io)
+[Site](http://cedced19.github.io/soft/iced/)
 
 [Téléchargement](https://raw.githubusercontent.com/cedced19/iced/master/setup/iced-setup.exe)
 

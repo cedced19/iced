@@ -77,6 +77,3 @@ Et bien d'autres!
 ====
 
 [Téléchargement](https://raw.githubusercontent.com/cedced19/iced/master/setup/iced-setup.exe)
-
-## License
-[CC BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)
